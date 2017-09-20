@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data" action="/fileupload">
+        <label>文件上传:</label><input name="file" type="file"/>
+        <input type="hidden" name="token" value="{{.}}"/>
+        <br/>
+        <input type="submit" value="提交"/>
+    </form>
+</body>
+</html>
