@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e234009-fcf1-4127-bf99-2d52471714ef" name="Default" comment="" />
+    <list default="true" id="6e234009-fcf1-4127-bf99-2d52471714ef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pointer/pointer1.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="go语言总结" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text/go语言总结">
+      <file leaf-file-name="pointer1.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pointer/pointer1.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="612">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,10 +56,12 @@
     </findStrings>
   </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../../../golang" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bufio_ReadLine.go" />
         <option value="$PROJECT_DIR$/bufio_WriteTo.go" />
         <option value="$PROJECT_DIR$/bufio_reset.go" />
         <option value="$PROJECT_DIR$/bufio_WriteString.go" />
@@ -105,6 +112,7 @@
         <option value="$PROJECT_DIR$/SliceMarvel1.go" />
         <option value="$PROJECT_DIR$/switch_marvel.go" />
         <option value="$PROJECT_DIR$/text/go语言总结" />
+        <option value="$PROJECT_DIR$/pointer/pointer1.go" />
       </list>
     </option>
   </component>
@@ -120,6 +128,7 @@
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -135,7 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,13 +155,13 @@
             <path>
               <item name="marvelgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="marvelgo" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="pointer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run switch_marvel.go">
+  <component name="RunManager" selected="Go Single File.go run pointer1.go">
     <configuration name="Build fmt1.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="marvelgo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -249,15 +258,15 @@
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/interface/MarvelInterface1.go" />
     </configuration>
-    <configuration name="go run MarvelInterface.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="marvelgo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/interface/MarvelInterface.go" />
-    </configuration>
     <configuration name="go run SliceMarvel1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="marvelgo" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/SliceMarvel1.go" />
+    </configuration>
+    <configuration name="go run pointer1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="marvelgo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/pointer/pointer1.go" />
     </configuration>
     <configuration name="go run switch_marvel.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="marvelgo" />
@@ -265,19 +274,19 @@
       <filePath value="$PROJECT_DIR$/switch_marvel.go" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface1.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.Build fmt1.go and run" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run SliceMarvel1.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run switch_marvel.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface1.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.Build fmt1.go and run" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run SliceMarvel1.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run switch_marvel.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run pointer1.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run switch_marvel.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run SliceMarvel1.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.Build fmt1.go and run" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface1.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run pointer1.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run switch_marvel.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run SliceMarvel1.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.Build fmt1.go and run" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run MarvelInterface1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -327,14 +336,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441642" sideWeight="0.11420205" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11947319" sideWeight="0.885798" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19679849" sideWeight="0.885798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17569546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44321766" sideWeight="0.48825258" order="3" side_tool="false" content_ui="tabs" />
@@ -356,57 +364,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/goXML.go" />
-    <entry file="file://$PROJECT_DIR$/file/xmlMarvel.go" />
-    <entry file="file://$PROJECT_DIR$/server.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmlMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marvel/one_test.go" />
-    <entry file="file://$PROJECT_DIR$/functionResult.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rangeMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Go/src/database/sql/sql.go" />
     <entry file="file://$PROJECT_DIR$/marvel/anit.go" />
     <entry file="file://$PROJECT_DIR$/mydatabase/mainInit.go" />
     <entry file="file://$PROJECT_DIR$/mydatabase/asdM.go" />
@@ -428,13 +390,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/file_test.go" />
-    <entry file="file://$PROJECT_DIR$/jsonMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Go/src/time/time.go" />
     <entry file="file://$PROJECT_DIR$/marvel/A.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -482,13 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -592,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sliceMarvel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliceMarvel2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -617,19 +558,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/go语言总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channel_marvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1505822315826" expanded="true" signature="26:51" ph="{...}" />
-            <marker date="1505822315826" expanded="true" signature="69:248" ph="{...}" />
-            <marker date="1505822315826" expanded="true" signature="102:246" ph="{...}" />
-            <marker date="1505822315826" expanded="true" signature="112:138" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="147:173" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="182:208" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="217:243" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="299:485" ph="{...}" />
-            <marker date="1505822315826" expanded="true" signature="309:349" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="358:398" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="407:447" ph="..." />
-            <marker date="1505822315826" expanded="true" signature="456:482" ph="..." />
+            <marker date="1497679324000" expanded="false" signature="21:26" ph="..." />
+            <marker date="1497679324000" expanded="true" signature="28:335" ph="/*...*/" />
+            <marker date="1497679324000" expanded="true" signature="362:410" ph="{...}" />
+            <marker date="1497679324000" expanded="true" signature="424:660" ph="{...}" />
+            <marker date="1497679324000" expanded="true" signature="483:535" ph="{...}" />
+            <marker date="1497679324000" expanded="true" signature="593:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/closeFunc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499779546000" expanded="false" signature="21:26" ph="..." />
+            <marker date="1499779546000" expanded="true" signature="40:239" ph="{...}" />
+            <marker date="1499779546000" expanded="true" signature="75:113" ph="{...}" />
+            <marker date="1499779546000" expanded="true" signature="122:236" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -638,14 +601,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1498031050000" expanded="true" signature="26:78" ph="{...}" />
+            <marker date="1498031050000" expanded="true" signature="53:76" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/go语言总结">
+    <entry file="file://$PROJECT_DIR$/fileMarvel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <marker date="1502093636000" expanded="false" signature="21:69" ph="..." />
+            <marker date="1502093636000" expanded="true" signature="83:485" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="241:269" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="286:483" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="338:480" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="428:444" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="533:1118" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="596:633" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="758:1116" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="906:1047" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1120:1149" ph="/.../" />
+            <marker date="1502093636000" expanded="true" signature="1180:1426" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1260:1352" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1280:1292" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1308:1320" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1369:1424" ph="{...}" />
+            <marker date="1502093636000" expanded="true" signature="1428:1475" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flag_marvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500115088000" expanded="false" signature="21:39" ph="..." />
+            <marker date="1500115088000" expanded="true" signature="53:690" ph="{...}" />
+            <marker date="1500115088000" expanded="true" signature="647:688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionResult.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497768002000" expanded="false" signature="21:26" ph="..." />
+            <marker date="1497768002000" expanded="true" signature="79:117" ph="{...}" />
+            <marker date="1497768002000" expanded="true" signature="131:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goroutineMarvel1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499943996000" expanded="true" signature="52:103" ph="{...}" />
+            <marker date="1499943996000" expanded="true" signature="119:131" ph="{...}" />
+            <marker date="1499943996000" expanded="true" signature="145:180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goroutineMarvel2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499948188000" expanded="true" signature="72:100" ph="{...}" />
+            <marker date="1499948188000" expanded="true" signature="112:159" ph="{...}" />
+            <marker date="1499948188000" expanded="true" signature="173:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497619728000" expanded="false" signature="21:26" ph="..." />
+            <marker date="1497619728000" expanded="true" signature="71:178" ph="{...}" />
+            <marker date="1497619728000" expanded="true" signature="115:134" ph="{...}" />
+            <marker date="1497619728000" expanded="true" signature="192:471" ph="{...}" />
+            <marker date="1497619728000" expanded="true" signature="212:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonMarvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <marker date="1500709086000" expanded="false" signature="21:56" ph="..." />
+            <marker date="1500709086000" expanded="true" signature="75:187" ph="{...}" />
+            <marker date="1500709086000" expanded="true" signature="201:633" ph="{...}" />
+            <marker date="1500709086000" expanded="true" signature="224:305" ph="{...}" />
+            <marker date="1500709086000" expanded="true" signature="356:458" ph="{...}" />
+            <marker date="1500709086000" expanded="true" signature="538:631" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listMarvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497843712000" expanded="false" signature="21:49" ph="..." />
+            <marker date="1497843712000" expanded="true" signature="63:136" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="138:152" ph="/*...*/" />
+            <marker date="1497843712000" expanded="true" signature="196:250" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="252:317" ph="/*...*/" />
+            <marker date="1497843712000" expanded="true" signature="352:532" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="420:456" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="502:529" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="534:548" ph="/*...*/" />
+            <marker date="1497843712000" expanded="true" signature="585:597" ph="{...}" />
+            <marker date="1497843712000" expanded="true" signature="599:615" ph="/*...*/" />
+            <marker date="1497843712000" expanded="true" signature="647:651" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliceMarvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <marker date="1497964524000" expanded="false" signature="21:26" ph="..." />
+            <marker date="1497964524000" expanded="true" signature="59:126" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="141:433" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="228:251" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="265:274" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="287:296" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="402:430" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="474:789" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="587:677" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="751:772" ph="{...}" />
+            <marker date="1497964524000" expanded="true" signature="811:880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionMarvel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498031666000" expanded="true" signature="44:146" ph="{...}" />
+            <marker date="1498031666000" expanded="true" signature="62:77" ph="{...}" />
+            <marker date="1498031666000" expanded="true" signature="95:110" ph="{...}" />
+            <marker date="1498031666000" expanded="true" signature="128:143" ph="{...}" />
+            <marker date="1498031666000" expanded="true" signature="160:163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointer/pointer1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
